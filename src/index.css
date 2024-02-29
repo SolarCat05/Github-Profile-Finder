@@ -7,7 +7,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.GithubProfileFinder{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.GithubProfileFinder input{
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.GithubProfileFinder button{
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #5cff9a;
+  cursor: pointer;  
+}
+
+.container{
+  display: flex;
+  gap: 10px;
+}
+ 
+.User{
+  border: 1px solid black;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.Usertitle{
+  font-weight: bold;
+}
+
+.Usertitle a{
+  text-decoration: none;
+}
+
+.Userdata{
+  font-style: italic;
+}
+
+.avatar{
+  height: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.loading{
+  text-align: center;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
